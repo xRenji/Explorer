@@ -1,0 +1,26 @@
+@import "../../index.scss";
+
+.navbar {
+  background: $mainWhite;
+  padding: 1rem;
+}
+
+.nav-links {
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-link {
+  color: $lightGreen;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 2.5rem;
+  transition: all 0.3s linear;
+
+  &:hover {
+    color: $lightYellow;
+  }
+}
+.active {
+  color: $lightGreen;
+}

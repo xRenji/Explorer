@@ -6,11 +6,16 @@
 }
 
 $mainBlack: #222;
-$mainGreen: #82b340;
 $mainWhite: #fff;
 $mainGrey: #ececec;
 
+$mainBrown: #1f2605;
+$darkGreen: #1f6521;
+$lightGreen: #53900f;
+$darkYellow: #a4a71e;
+$lightYellow: #d6ce15;
+
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: $mainGrey;
+  background-color: $mainBlack;
 }
